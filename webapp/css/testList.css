@@ -1,0 +1,166 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height:30px;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 1200px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: #253641;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #214761;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #214761;
+}
+
+#wrapper {
+    width: 100%;
+    margin-top:50px;
+}
+
+#page-wrapper {
+    padding: 15px 15px;
+    min-height: 600px;
+    
+   
+   
+}
+#page-inner {
+    width:100%;
+    margin:10px 20px 10px 0px;
+   
+    padding:10px;
+    min-height:1050px;
+}
+
+#page-wrapper{
+    margin: 0 0 0 260px;
+padding: 15px 30px;
+min-height: 1050px;
+
+}
+.pad-top {
+    padding-top:15px;
+}
+
+.sidebar-collapse .nav {
+	padding:0;
+    padding-top:50px;
+}
+
+.sidebar-collapse > .nav > li > a {
+	padding:15px 10px;
+    color: #214761;
+font-weight: 900;
+font-size: 16px;
+}
+.sidebar-collapse > .nav > li {
+	border-bottom:1px solid #214761;
+}
+.sidebar-collapse .nav > li > a:hover,
+.sidebar-collapse .nav > li > a:focus {
+	
+	background:#F3F3F3;
+	outline:0;
+}
+
+.navbar-side {
+	border:none;
+	background-color: #fff;
+	
+}
+.navbar-inverse {
+
+background-color: #214761;
+border-color: #F0F0F0;
+min-height: 80px;
+}
+
+
+.nav > li > a > i {
+    margin-right:50px;
+    
+
+}
+
+.navbar-side {
+    z-index: 1;
+    position: absolute;
+    width: 260px;
+   
+}
+
+.active-link {
+    background-color:#f3f3f3;
+}
+.logout-spn {
+    float:right;
+    color:#fff;
+    font-size:25px;
+    font-weight:800;
+    margin:20px;
+    margin: 10px 25px 10px 50px;
+}
+    .logout-spn a {
+        text-decoration:none;
+    }
+
+
+
+    .footer {
+        background-color:#214761;
+        width:100%;
+        color:#fff;
+        padding:20px 50px 20px 50px;
+         padding-left:20px;
+    }
+    
+    
+        .footer > a, .footer>a:hover {
+           
+            color:#fff;
+        }
+
+        .div-square {
+            padding:5px;
+            border:3px double #e1e1e1;
+            -webkit-border-radius:8px;
+           -moz-border-radius:8px;
+            border-radius:8px;
+            margin:5px;
+        
+        }
+        
+        .div-square> a,.div-square> a:hover {
+            color:#808080;
+             text-decoration:none;
+        }
